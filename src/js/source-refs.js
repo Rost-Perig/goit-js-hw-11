@@ -22,7 +22,7 @@ export const refs = {
   changeColorStart: document.querySelector('button[data-action="start"]'),
   changeColorStop: document.querySelector('button[data-action="stop"]'),
   timeoutIdColor: null,
-  COLOR_DELAY: 1500,
+  COLOR_DELAY: 1000,
   days: document.querySelector('[data-value="days"]'),
   hours: document.querySelector('[data-value="hours"]'),
   mins: document.querySelector('[data-value="mins"]'),
